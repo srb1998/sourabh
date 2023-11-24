@@ -30,7 +30,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <>
+    <div className=''>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -45,13 +45,13 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 '>
         {services.map((service,index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
 
-    </>
+    </div>
   );
 }
 
