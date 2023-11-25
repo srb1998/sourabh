@@ -7,10 +7,6 @@ import EarthCanvas from "./canvas/Earth";
 import SectionWrapper from '../hoc/SectionWrapper';
 import { slideIn } from "../utils/motion";
 
-console.log(import.meta.env.VITE_SERVICE_ID)
-console.log(import.meta.env.VITE_TEMPLATE_ID)
-console.log(import.meta.env.VITE_PUBLIC_KEY)
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({

@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div className="flex justify-center opacity-80 font-semibold mt-[30px] md:mt-8 md:gap-4">
+      <div className="flex md:text-[15px] text-xs text-md justify-center opacity-80 font-semibold mt-[30px] md:mt-8 md:gap-4">
         © 2023 Sourabh. All Rights Reserved.
       </div>
     </footer>
