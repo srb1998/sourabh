@@ -108,7 +108,7 @@ import {
   
   const experiences = [
     {
-      title: "Program Analyst",
+      title: "Software Developer",
       company_name: "WNS Global Services",
       icon: wns,
       iconBg: "#383E56",
